@@ -1,7 +1,7 @@
 const carManufactureUrl =
   "https://vpic.nhtsa.dot.gov/api/vehicles/getallmanufacturers?format=json";
 
-const httpStatus = "https://httpstat.us/404";
+// const httpStatus = "https://httpstat.us/404";
 
 async function fetchData(url) {
   const res = await fetch(url);
